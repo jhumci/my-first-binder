@@ -1,0 +1,7 @@
+library(GenomicRanges)
+gr=GRanges(seqnames=c("chr1","chr2","chr2"),
+           ranges=IRanges(start=c(50,150,200),
+                          end=c(100,200,300)),
+           strand=c("+","-","-")
+)
+gr
